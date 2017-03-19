@@ -5,7 +5,7 @@
   "author": "hori-ryota <hori_ryota@cyberagent.co.jp>",
   "private": true,
   "scripts": {
-    "publish": "npm run tsc && npm run upload",
+    "publish": "npm run build && npm run upload",
     "build": "npm run tsc",
     "tsc": "tsc",
     "upload": "gapps upload"
